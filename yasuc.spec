@@ -32,9 +32,9 @@ rm -rf $RPM_BUILD_ROOT
 
 cd %{name}-%{version}
 
-install -d $RPM_BUILD_ROOT{%{_bindir},/etc}
-install yasuc $RPM_BUILD_ROOT%{_bindir}
-install yasuc.conf $RPM_BUILD_ROOT/etc
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_sysconfdir}}
+install %{name} $RPM_BUILD_ROOT%{_bindir}
+install %{name}.conf $RPM_BUILD_ROOT%{_sysconfdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -47,5 +47,5 @@ echo "	and add a cronjob (e.g. \"crontab -e\")"
 %files
 %defattr(644,root,root,755)
 %doc %{name}-%{version}/{INSTALL,README}
-%attr(755,root,root) %{_bindir}/yasuc
-%config(noreplace) %verify(not md5 mtime size) /etc/yasuc.conf
+%attr(755,root,root) %{_bindir}/%{name}
+%config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/%{name}.conf
