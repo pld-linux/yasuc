@@ -4,7 +4,7 @@ Summary:	Uptime-Project client
 Summary(pl):	Program klienta Uptime-Project
 Name:		yasuc
 Version:	0.4.1
-Release:	0.1
+Release:	1
 License:	other
 Group:          Applications
 Source0:	http://www.i-glyphix.net/files/%{name}-%{version}%{_pver}.tar.bz2
