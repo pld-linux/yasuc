@@ -1,12 +1,12 @@
 # TODO: what is "other"???
-%define         _pver   _x86_linux
+%define		_pver	_x86_linux
 Summary:	Uptime-Project client
 Summary(pl):	Program klienta Uptime-Project
 Name:		yasuc
 Version:	0.4.1
 Release:	1
 License:	other
-Group:          Applications
+Group:		Applications
 Source0:	http://www.i-glyphix.net/files/%{name}-%{version}%{_pver}.tar.bz2
 # Source0-md5:	0e183a0867c741c326883d7d493a29c0
 URL:		http://www.uptime-project.net/
