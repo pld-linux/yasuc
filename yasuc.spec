@@ -1,7 +1,7 @@
 # TODO: what is "other"???
 %define		_pver	_x86_linux
 Summary:	Uptime-Project client
-Summary(pl):	Program klienta Uptime-Project
+Summary(pl.UTF-8):   Program klienta Uptime-Project
 Name:		yasuc
 Version:	0.4.1
 Release:	1
@@ -18,11 +18,11 @@ Yasuc is a client of Uptime-Project which gets uptime from computer
 and sends to main server where this data is beeing analized and
 presented via http. It's "Fun-Project" - non profit.
 
-%description -l pl
-Yasuc jest klientem internetowego projektu Uptime-Project, kt髍y
-zbiera, analizuje i prezentuje informacje na temat czas體 uptime
-komputer體 uczestnicz眂ych w projekcie. Czysta rozrywka, 縜dnych
-profit體.
+%description -l pl.UTF-8
+Yasuc jest klientem internetowego projektu Uptime-Project, kt贸ry
+zbiera, analizuje i prezentuje informacje na temat czas贸w uptime
+komputer贸w uczestnicz膮cych w projekcie. Czysta rozrywka, 偶adnych
+profit贸w.
 
 %prep
 %setup -q -n dist
