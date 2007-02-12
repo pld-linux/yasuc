@@ -1,7 +1,7 @@
 # TODO: what is "other"???
 %define		_pver	_x86_linux
 Summary:	Uptime-Project client
-Summary(pl.UTF-8):   Program klienta Uptime-Project
+Summary(pl.UTF-8):	Program klienta Uptime-Project
 Name:		yasuc
 Version:	0.4.1
 Release:	1
