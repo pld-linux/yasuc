@@ -43,6 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 echo "		NOTICE"
 echo "	Don't forget to edit /etc/yasuc.conf"
 echo "	and add a cronjob (e.g. \"crontab -e\")"
+echo "  Uptime-Project is down since 1st of March 2007"
 
 %files
 %defattr(644,root,root,755)
